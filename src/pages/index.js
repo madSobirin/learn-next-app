@@ -92,14 +92,8 @@ export default function Home() {
                   <div className="absolute -top-10 -right-10 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
                   <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
                   <div
-                    className="relative w-full aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700"
+                    className="relative w-full aspect-square lg:aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 bg-[url('https://lh3.googleusercontent.com/aida-public/AB6AXuBDtWr0hmcO0Rtm2-wTQeijcYjyxty4fAeLdpazRZ4RhRIjGJzmx_m4KM7xv4g5Hc2swcHhcFabZntYVxm6OIY7YFUDYTLlyBBja_uWzMBxAO9h54HippBgNXteZxYxeGfI6-Fs7tgO0w6GwVB8T7gQIjbq3g6673EXHxFUDPc3SFLVKgabVOcxi2q3r9QlkM34jGssmS7bCbdeeAKpawDsvzJeu2Xa8MuV2dgS_F4FCtY4aNOWCRZpnCAsMXp1OnAl8Q3lZQj67hk')] bg-cover bg-center"
                     data-alt="Futuristic digital finance dashboard with graphs and coins"
-                    style={{
-                      backgroundImage:
-                        "url('https://lh3.googleusercontent.com/aida-public/AB6AXuBDtWr0hmcO0Rtm2-wTQeijcYjyxty4fAeLdpazRZ4RhRIjGJzmx_m4KM7xv4g5Hc2swcHhcFabZntYVxm6OIY7YFUDYTLlyBBja_uWzMBxAO9h54HippBgNXteZxYxeGfI6-Fs7tgO0w6GwVB8T7gQIjbq3g6673EXHxFUDPc3SFLVKgabVOcxi2q3r9QlkM34jGssmS7bCbdeeAKpawDsvzJeu2Xa8MuV2dgS_F4FCtY4aNOWCRZpnCAsMXp1OnAl8Q3lZQj67hk')",
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                    }}
                   >
                     {/* Overlay for better text contrast if needed, mostly for aesthetics here */}
                     <div className="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent"></div>
@@ -380,14 +374,7 @@ export default function Home() {
           <section className="py-24 px-6 bg-background-light dark:bg-background-dark">
             <div className="mx-auto max-w-5xl bg-slate-900 dark:bg-white rounded-3xl overflow-hidden relative shadow-2xl">
               {/* Background pattern */}
-              <div
-                className="absolute inset-0 opacity-20"
-                style={{
-                  backgroundImage:
-                    "radial-gradient(#4b5563 1px, transparent 1px)",
-                  backgroundSize: "20px 20px",
-                }}
-              ></div>
+              <div className="absolute inset-0 opacity-20 bg-[image:radial-gradient(#4b5563_1px,transparent_1px)] bg-[size:20px_20px]"></div>
               <div className="relative z-10 flex flex-col items-center justify-center text-center p-12 md:p-16">
                 <h2 className="text-3xl md:text-5xl font-black text-white dark:text-slate-900 mb-6">
                   Ready to take control?
