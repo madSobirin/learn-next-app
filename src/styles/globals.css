@@ -1,13 +1,5 @@
 @import "tailwindcss";
 
-@theme {
-  --color-primary: #ea2a33;
-  --color-background-light: #f8f6f6;
-  --color-background-dark: #211111;
-  --font-display: "Be Vietnam Pro", sans-serif;
-  --font-body: "Noto Sans", sans-serif;
-}
-
 /* Custom scrollbar for better aesthetics */
 ::-webkit-scrollbar {
   width: 8px;
