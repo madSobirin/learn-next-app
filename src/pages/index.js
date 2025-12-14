@@ -1,7 +1,6 @@
-import React from "react";
-
+import LoginPage from "./auth/loginPage";
 const index = () => {
-  return <div>index</div>;
+  return <div>landing Page</div>;
 };
 
 export default index;
